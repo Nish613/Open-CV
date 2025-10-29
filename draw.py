@@ -36,6 +36,6 @@ cv.imshow('Line',blank)
 cv.waitKey(0)'''
 
 #5.Write text on image
-cv.putText(blank,'Hello',(255,255),cv.FONT_HERSHEY_TRIPLEX,1.0,(0,255,0),2)
+cv.putText(blank,'Hello',(255,255),cv.FONT_HERSHEY_TRIPLEX,1.0,(0,255,0),2) #1.0 is the size of text and 2 is the thickness of font
 cv.imshow('Text',blank)
 cv.waitKey(0)
