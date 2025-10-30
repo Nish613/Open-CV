@@ -9,7 +9,7 @@ gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 
 #Blurring an image
 blur = cv.GaussianBlur(img,(7,7),cv.BORDER_DEFAULT) #7,7 is the kernal size to increase blur increase the no.
-#cv.imshow('Blur',blur)
+cv.imshow('Blur',blur)
 
 #Edge cascade
 canny = cv.Canny(img,125,175)
